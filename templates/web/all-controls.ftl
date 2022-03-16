@@ -38,7 +38,11 @@
 		</br></br>
 		<b>Image:</b>
 		<img src="${contentModel.image_s}" alt="Image" width="30" height="30">
-		
+		</br></br>
+		<b>Video:</b>
+		<video width="320" height="240" controls>
+          <source src="${contentModel.video_s}" type="video/mp4">
+        </video>
 		
 		<@crafter.body_bottom/>
 	</body>
