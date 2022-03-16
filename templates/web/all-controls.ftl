@@ -24,7 +24,7 @@
 		</br></br>
 		<b>Time:</b> ${contentModel.time_to!'NOT_SET'}
 		</br></br>
-		<b>Date Time:</b> ${contentModel.dateTime_dt!'NOT_SET'}
+		<b>Date Time:</b> ${contentModel.dateTime_dt?string.full!'NOT_SET'}
 		</br></br>
 		<b>Checkbox:</b> ${contentModel.checkbox_b?then('selected', 'unselected')}
 		</br></br>
