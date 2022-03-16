@@ -21,6 +21,8 @@
 		${contentModel.rTE_html!'NOT_SET'}
 		</br></br>
 		<b>Dropdown:</b> ${contentModel.dropdown_s!'NOT_SET'}
+		</br></br>
+		<b>Time:</b> ${contentModel.time_to!'NOT_SET'}
 		
 		<@crafter.body_bottom/>
 	</body>
