@@ -19,16 +19,18 @@
 	<checkbox_b>true</checkbox_b>
 	<groupedCheckboxes_o>	<item>	<key>three</key>
 	<value_smv>Three</value_smv>
+	</item>	<item>	<key>one</key>
+	<value_smv>One</value_smv>
 	</item></groupedCheckboxes_o>
 	<itemSelector_o item-list="true"/>
 	<image_s>/static-assets/images/1-gear.png</image_s>
 	<video_s>/static-assets/videos/file_example.mp4</video_s>
 	<rTE_html>&lt;p&gt;This is some text in the RTE&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</rTE_html>
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</rTE_html>
 	<createdDate>2022-03-16T18:08:33.602Z</createdDate>
 	<createdDate_dt>2022-03-16T18:08:33.602Z</createdDate_dt>
-	<lastModifiedDate>2022-03-16T18:08:33.602Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-03-16T18:08:33.602Z</lastModifiedDate_dt>
+	<lastModifiedDate>2022-03-16T18:54:50.964Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-03-16T18:54:50.964Z</lastModifiedDate_dt>
 	<time_to>18:08:33</time_to>
 	<time_to_tz>UTC</time_to_tz>
 	<dateTime_dt>2022-03-16T00:00:00.000Z</dateTime_dt>
