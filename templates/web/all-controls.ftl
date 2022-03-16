@@ -12,7 +12,7 @@
 		<h1>Hello CrafterCMS</h1>
 		
 		<b>Input:</b> ${contentModel.input_s!'NOT_SET'}
-		
+		</br>
 		<b>Numeric Input:</b> ${contentModel.numericInput_i!'NOT_SET'}
 		
 		<@crafter.body_bottom/>
