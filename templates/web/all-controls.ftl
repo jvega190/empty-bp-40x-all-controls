@@ -29,9 +29,11 @@
 		<b>Checkbox:</b> ${contentModel.checkbox_b?then('selected', 'unselected')}
 		</br></br>
 		<b>Grouped Checkboxes - selected:</b>
-		<#list groupedCheckboxes_o.item as checkbox>
-		    ${checkbox.value} ${checkbox?is_last?then(' - ', '')}
-	    </#list>
+		<#if contentModel.groupedCheckboxes??>
+        	<#list contentModel.groupedCheckboxes_o.item as checkbox>
+        	    ${checkbox.value} ${checkbox?is_last?then(' - ', '')}
+            </#list>
+		</#if>
 		
 		
 		<@crafter.body_bottom/>
