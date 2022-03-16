@@ -683,6 +683,34 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>video-picker</type>
+					<id>video_s</id>
+					<iceId></iceId>
+					<title>Video</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>videoManager</name>
+							<value>videoRepository,videoUpload</value>
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
@@ -780,6 +808,37 @@
 							<name>repoPath</name>
 							<value>/static-assets/images</value>
 								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>video-desktop-upload</type>
+					<id>videoUpload</id>
+					<title>Video Upload</title>
+					<interface>video</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/videos</value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>video-browse-repo</type>
+					<id>videoRepository</id>
+					<title>Video Repository</title>
+					<interface>video</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/videos</value>
+								<type>string</type>
 						</property>
 						<property>
 							<name>useSearch</name>
