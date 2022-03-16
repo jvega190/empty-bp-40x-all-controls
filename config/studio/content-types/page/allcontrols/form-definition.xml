@@ -711,6 +711,29 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>label</type>
+					<id>label_s</id>
+					<iceId></iceId>
+					<title>Label</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>text</name>
+							<value>This is a label</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>renderAsHTML</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
