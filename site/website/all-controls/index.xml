@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/allcontrols</content-type>
+	<display-template>/templates/web/all-controls.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>087b</objectGroupId>
+	<objectId>087bd589-786a-572c-947a-c71bce1b17f8</objectId>
+	<internal-name>All Controls</internal-name>
+	<navLabel>All Controls</navLabel>
+	<input_s>Input text</input_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>all-controls</folder-name>
+	<numericInput_i>20</numericInput_i>
+	<textArea_t>This is a text area</textArea_t>
+	<dropdown_s>three</dropdown_s>
+	<checkbox_b>true</checkbox_b>
+	<groupedCheckboxes_o>	<item>	<key>three</key>
+	<value_smv>Three</value_smv>
+	</item></groupedCheckboxes_o>
+	<itemSelector_o item-list="true"/>
+	<image_s>/static-assets/images/1-gear.png</image_s>
+	<video_s>/static-assets/videos/file_example.mp4</video_s>
+	<rTE_html>&lt;p&gt;This is some text in the RTE&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</rTE_html>
+	<createdDate>2022-03-16T18:08:33.602Z</createdDate>
+	<createdDate_dt>2022-03-16T18:08:33.602Z</createdDate_dt>
+	<lastModifiedDate>2022-03-16T18:08:33.602Z</lastModifiedDate>
+	<lastModifiedDate_dt>2022-03-16T18:08:33.602Z</lastModifiedDate_dt>
+	<time_to>18:08:33</time_to>
+	<time_to_tz>UTC</time_to_tz>
+	<dateTime_dt>2022-03-16T00:00:00.000Z</dateTime_dt>
+	<dateTime_dt_tz>UTC</dateTime_dt_tz>
+</page>
