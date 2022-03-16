@@ -23,6 +23,10 @@
 		<b>Dropdown:</b> ${contentModel.dropdown_s!'NOT_SET'}
 		</br></br>
 		<b>Time:</b> ${contentModel.time_to!'NOT_SET'}
+		</br></br>
+		<b>Date Time:</b> ${contentModel.dateTime_dt!'NOT_SET'}
+		</br></br>
+		<b>Checkbox:</b> ${contentModel.checkbox_b?then('selected', 'unselected')}
 		
 		<@crafter.body_bottom/>
 	</body>
