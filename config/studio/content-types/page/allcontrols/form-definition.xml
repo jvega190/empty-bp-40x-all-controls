@@ -750,7 +750,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;one&quot;,&quot;value&quot;:&quot;One&quot;},{&quot;key&quot;:&quot;two&quot;,&quot;value&quot;:&quot;Tw&quot;},{&quot;key&quot;:&quot;three&quot;,&quot;value&quot;:&quot;Three&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;one&quot;,&quot;value&quot;:&quot;One&quot;},{&quot;key&quot;:&quot;two&quot;,&quot;value&quot;:&quot;Two&quot;},{&quot;key&quot;:&quot;three&quot;,&quot;value&quot;:&quot;Three&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
