@@ -27,6 +27,12 @@
 		<b>Date Time:</b> ${contentModel.dateTime_dt!'NOT_SET'}
 		</br></br>
 		<b>Checkbox:</b> ${contentModel.checkbox_b?then('selected', 'unselected')}
+		</br></br>
+		<b>Grouped Checkboxes - selected:</b>
+		<#list groupedCheckboxes_o.item as checkbox>
+		    ${checkbox.value} ${checkbox?is_last?then(' - ', '')}
+	    </#list>
+		
 		
 		<@crafter.body_bottom/>
 	</body>
