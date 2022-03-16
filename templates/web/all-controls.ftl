@@ -31,7 +31,7 @@
 		<b>Grouped Checkboxes - selected:</b>
 		
         	<#list contentModel.groupedCheckboxes_o.item as checkbox>
-        	    ${checkbox.value} ${checkbox?is_last?then(' - ', '')}
+        	    ${checkbox.value_smv} ${checkbox?is_last?then(' - ', '')}
             </#list>
 	
 		
