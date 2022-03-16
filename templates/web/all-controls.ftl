@@ -20,6 +20,7 @@
 		<b>RTE:</b>
 		${contentModel.rTE_html!'NOT_SET'}
 		</br></br>
+		<b>Dropdown:</b> ${contentModel.dropdown_s!'NOT_SET'}
 		
 		<@crafter.body_bottom/>
 	</body>
