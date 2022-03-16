@@ -34,6 +34,10 @@
         	    ${checkbox.value_smv} ${checkbox?is_last?then('', ', ')}
             </#list>
 	    </#if>
+		<#-- Node selector rendering pending -->
+		</br></br>
+		<b>Image:</b>
+		<img src="${contentModel.image_s}" alt="Image" width="30" height="30">
 		
 		
 		<@crafter.body_bottom/>
