@@ -5,6 +5,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>${model.title_t}</title>
+		
+		<b>Input:</b> ${contentModel.input_s!'NOT_SET'}
 	
 		<@crafter.head/>
 	</head>
