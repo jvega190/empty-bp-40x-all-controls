@@ -13,6 +13,8 @@
 		
 		<b>Input:</b> ${contentModel.input_s!'NOT_SET'}
 		
+		<b>Numeric Input:</b> ${contentModel.numericInput_i!'NOT_SET'}
+		
 		<@crafter.body_bottom/>
 	</body>
 </html>
